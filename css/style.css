@@ -106,13 +106,9 @@ main{
     grid-column: 2 / 3;
     display: flex;
     justify-content: center;
-
+    align-items: center;
     background-color: lightgray;
 
-}
-
-#img2{
-    transform: translateY(-40px);
 }
 
 
