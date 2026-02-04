@@ -1,8 +1,6 @@
 
 @charset 'UTF-8';
 
-@media screen and (max-width: 600px){
-
 *{
     padding: 0px;
     margin: 0px;
@@ -75,43 +73,4 @@ body::-webkit-scrollbar{
     transform: translateY(-40px);
     margin-bottom: 10px;
 }
-}
 
-@media screen and (min-width:600px) and (max-width:1200px) {
-
-    .conteiner{
-        width: 80%;
-        height: 80%;
-        margin: 20px 0px 20px 0px;
-        border: 2px solid  rgb(255, 230, 0);
-    }
-
-    #item1{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100px;
-    }
-
-    #item2{
-        display: flex;
-        flex-flow: column;
-    }
-
-    #caixa1{
-        transform: translateY(50px);
-    }
-
-    #caixa2{
-        display:flex;
-        flex-flow: column ;
-        align-items: center;
-        
-    }
-
-    #img2{
-        width: 460px;
-        transform: translateY(-20px);
-    }
-    
-}
